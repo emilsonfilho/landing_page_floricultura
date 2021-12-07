@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<link rel="stylesheet" href="estilos/estilo.css">
+				<link rel="shortcut icon" href="icones/icone.ico" type="image/x-icon">
+				<title>Floricultura Novaes</title>
+</head>
+<body onload="catalogo()">
+		<header>
+				<img src="imagens/logo_simplificada.png" alt="Logo">
+				<nav>
+						<ul>
+								<li><a href="#home">HOME</a></li>
+								<li><a href="#secao-ofertas">ENCOMENDAS</a></li>
+								<li><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5585992920191">(85) 9.8765-4321</a></li>
+						</ul>
+				</nav>
+		</header>
+		<section class="secao-banner" id="home">
+				<div class="conteudo-banner">
+						<h1>ENCONTRE VIDA PARA A SUA CASA!</h1>
+						<p>Disponibilizamos as melhores opções para você decorar a sua casa!</p>
+						<div class="botoes-banner">
+								<a href="#secao-ofertas">Nossas Ofertas</a>
+								<a href="#secao-ofertas">Mais Vendidos</a>
+						</div>
+				</div>
+		</section>
+		<section class="habilidades">
+				<div class="titulo-habilidades">
+						<h1>Nossas Habilidades</h1>
+						<hr size="2px" width="40%" style="margin: auto;">
+				</div>
+				<div class="boxes-habilidades">
+						<article>
+								<img src="icones/brazil.png" alt="Ícone do mapa do Brasil">
+								<p>Entregamos em todo o território brasileiro</p>
+						</article>
+						<article>
+								<img src="icones/clock.png" alt="Icone de um relógio">
+								<p>A entrega é a mais rápida possível</p>
+						</article>
+						<article>
+								<img src="icones/trophy.png" alt="Ícone de um troféu">
+								<p>1ª no ranking de Vendas da categoria Decoração</p>
+						</article>
+						<article>
+								<img src="icones/group.png" alt="Ícone de um grupo de pessoas">
+								<p>Equipe especializada pronta para lhe atender bem</p>
+						</article>
+						<article id="responsivo">
+								<img src="icones/flower-bouquet.png" alt="Ícone de um buquê de flores">
+								<p>Variedade de flores que supera a concorrência</p>
+						</article>
+				</div>
+		</section>
+		<section class="secao-ofertas" id="secao-ofertas">
+				<div class="titulo-ofertas">
+						<h1>Ofertas Excelentes</h1>
+						<hr size="2px" width="40%" style="margin: auto; background-color: white;">
+				</div>
+				<div class="boxes-ofertas">
+						<article id="oferta1">
+								<img src="imagens/oferta1.png" alt="Foto de um buquê de flores">
+								<p>Planta Cravo-do-Amor</p>
+								<p>Apenas <span id="cravo-do-amor">preço</span></p>
+								<a href="#">Comprar!</a>
+						</article>
+						<article>
+								<img src="imagens/oferta2.png" alt="Foto de um buquê de flores">
+								<p>Planta Miósotis da Água</p>
+								<p>Apenas <span id="miosotis-da-agua">preço</span></p>
+								<a href="#">Comprar!</a>
+						</article>
+						<article>
+								<img src="imagens/oferta3.png" alt="Foto de um buquê de flores">
+								<p>Muda de planta Lilás Rara</p>
+								<p>Apenas <span id="lilas">preço</span></p>
+								<a href="#">Comprar!</a>
+						</article>
+						<article class="ultimo-item">
+								<img src="imagens/oferta4.png" alt="Foto de um buquê de flores">
+								<p>Lisianto 5 hastes 2 flores</p>
+								<p>Apenas <span id="lisianto">preço</span></p>
+								<a href="#">Comprar!</a>
+						</article>
+						<article class="ultimo-item">
+								<img src="imagens/oferta5.png" alt="Foto de um buquê de flores">
+								<p>20 Mudas Tulip Garden</p>
+								<p>Apenas <span id="tulipa-de-jardim">preço</span></p>
+								<a href="#">Comprar!</a>
+						</article>
+				</div>
+		</section>
+		<section class="cartoes">
+				<article>
+						<p>Também aceitamos cartões!</p>
+						<div class="formas-de-pagamento">
+								<img src="icones/visa.png" alt="Logo da Visa">
+								<img src="icones/master.png" alt="Logo da MasterCard">
+						</div>
+				</article>
+		</section>
+		<footer>
+				<h1>Contatos</h1>
+				<hr size="2px" width="40%" style="margin: auto; background-color: var(--cor2);">
+				<div class="contatos">
+						<div class="links">
+						<a href="#" class="none">Luiz</a>
+						<a href="#" class="none">Paulo</a>
+						<a href="creditos.html">Credits</a>
+						</div>
+						<a href="#home"><img src="imagens/logo_vetor.png" alt="Logo da marca"></a>
+						<div class="links">
+						<a href="https://maps.app.goo.gl/PEY9e3ZJnk2QwNUH7" id="local">Pacajus-CE</a>
+						<a href="#" id="numero" class="none">(85) 9.8765-4321</a>
+						</div>
+				</div>
+				<div class="redes-sociais">
+						<a href="#"><img src="icones/facebook.png" alt="Logo do Facebook">
+						<a href="#"><img src="icones/instagram.png" alt="Logo do Instagram"></a>
+						<a href="#"><img src="icones/whatsapp.png" alt="Logo do WhatsApp"></a>
+				</div>
+		</footer>
+		<script src="scripts/catalogo.js"></script>
+</body>
+</html>
